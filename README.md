@@ -37,11 +37,13 @@ Simply install it from pypi :
 pip install sqtui
 ```
 Please notice that we didn't add neither PyQt5 nor PySide to our requirements, so when you install sqtui, you need then to install one of the two supported libraries.
+
 1- for pyqt5 :
 ```
 pip install pyqt5
 ```
-1- for pyside2 :
+
+2- for pyside2 :
 ```
 pip install pyside2
 ```
