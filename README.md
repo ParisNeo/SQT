@@ -14,7 +14,7 @@ While this is a good thing in some sense, sometimes, you want to keep your appli
 
 Other liraries such as PySide, have a little different syntax for example to load UI files or to to declare the signals. In the other hand PySide2 is under L-GPL licence, which is not as contaminating as the GPL, but still sonstrains the fact that you must give your user the possibility to change the library and even use another one.
 
-SQT is the answer to all this. First, it has a unified coding style independently from the library behind. It enables you to code in a consistant way, and automatically select the library you want to use. This has multiple advantages:
+SQTUI is the answer to all this. First, it has a unified coding style independently from the library behind. It enables you to code in a consistant way, and automatically select the library you want to use. This has multiple advantages:
 - First, you get to choose if you want to have the GPL licence or no
 - You are complient with the L-GPL requirements if you opt with using PySide
 - You can compile your code using pyinstaller and hide some portions that may be protected with patents or simply you want to keep secret while respecting the licences requirements
