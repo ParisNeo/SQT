@@ -238,10 +238,10 @@ if __name__ == "__main__":
 ```
 # Changelog
 
-## V0.0.2 28/05/2021
+## V0.0.2 : 28/05/2021
 - Added examples
 - Added pyqtgraph integration
 - Updated README
 
-## V0.0.1 28/05/2021
+## V0.0.1 : 28/05/2021
 - Initial code
