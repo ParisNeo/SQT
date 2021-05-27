@@ -29,7 +29,7 @@ Consider using this library especially for keeping your licence free of GPL 3 co
 
 ## Licence
 
-This library is distributed under MIT licence since we do not distribute the backend libraries with it. If you opt in using pyqt5 as backend then your app is GPL 3.5 and everything gets contaminated. If you opt to use PySide, you get to keep your licence and you'll notice no difference as SQT does the translation between the two libraries seemlessly.
+This library is distributed under MIT licence since we do not distribute the backend libraries with it. If you opt in using pyqt5 as backend then your app is GPL 3.0 and everything gets contaminated. If you opt to use PySide, you get to keep your licence and you'll notice no difference as SQT does the translation between the two libraries seemlessly.
 
 ## How to install
 Simply install it from pypi :
