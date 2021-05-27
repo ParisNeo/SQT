@@ -196,11 +196,12 @@ if __name__ == "__main__":
 ## PyQtGraph 
 
 pyqtgraph is a powerful scientific graphs plotter tool. It is more useful when it comes to plotting fast realtime data than matplotlib.
-You can use pyqtgraph along with sqtui as sqtui. As it actually support using either of pyqt5 and pyside.
+You can use pyqtgraph along with sqtui as pyqtgraph actually support using either of pyqt5 and pyside.
+
 pyqtgraph needs this environment variable to be set correctly to select the right backend:
 - PYQTGRAPH_QT_LIB
 
-SQTUI, does this automatically, when it identifies the installed library, it sets this variable. So allyou have to do is first import sqtui then import pyqtgraph.
+SQTUI, does this automatically, when it identifies the installed library, it sets this variable. So all you have to do is first import sqtui then import pyqtgraph.
 
 
 In the following example, you'll need to install pyqtgraph and numpy
