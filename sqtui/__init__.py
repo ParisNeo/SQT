@@ -67,7 +67,7 @@ elif module_exist("PySide2"):
             ui_file_name str or Path: The name of the file to be loaded
             main_class Qt class: A class type to put the loaded file in, for example QtWidgets.QWidget (required in pyqt but not in pyside2)
             """            
-            ui_file = QtCore.QFile(ui_file_name)
+            ui_file = QtCore.QFile(str(ui_file_name))
             ui_file.open(QtCore.QFile.ReadOnly)
 
             loader = QUiLoader()
