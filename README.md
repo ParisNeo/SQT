@@ -204,7 +204,7 @@ pyqtgraph needs this environment variable to be set correctly to select the righ
 SQTUI, does this automatically, when it identifies the installed library, it sets this variable. So all you have to do is first import sqtui then import pyqtgraph.
 
 
-In the following example, you'll need to install pyqtgraph and numpy
+In the following example, you'll need to install pyqtgraph and numpy. (use pip as shown for other libraries in How to install section)
 
 ```python
 import sys
