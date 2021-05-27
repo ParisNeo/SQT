@@ -1,5 +1,5 @@
-# SQT
-Safe QT.
+# SQTUI
+Safe QT User Interface.
 
 This is a little library I've developed in order to wrap arount Qt for python libraries.
 This librarty enables the user to seemlessly develop Qt applications with PyQt5 or PySide or in future versions other libraries without the need to change the coding.
