@@ -9,13 +9,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sqtui",
-    version="0.0.1",
+    version="0.0.2",
     author="Saifeddine ALOUI",
     author_email="aloui.saifeddine@gmail.com",
     description="Safe QT, a QT wrapper for automatic selection of python QT libs (PyQt, PySide)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ParisNeo/SQT",
+    url="https://github.com/ParisNeo/SQTUI",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
