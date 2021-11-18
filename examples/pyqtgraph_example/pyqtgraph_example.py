@@ -5,13 +5,26 @@ Description :
 An example application to show how to use this library with pyqtgraph
 You need to install pyqtgraph and numpy for this to work
 """
-import sys
-# pyqt5 style 
-#from PyQt5 import QtWidgets
-# pyside2 style 
-#from PyQt5 import QtWidgets
-# sqtui style
+
+# pyqt5 style -------------------------------------------------------------------------
+# from PyQt5 import QtWidgets
+# -------------------------------------------------------------------------------------
+
+# pyside2 style -----------------------------------------------------------------------
+# from PySide2 import QtWidgets
+# -------------------------------------------------------------------------------------
+
+# sqtui style -------------------------------------------------------------------------
+# Optional (explicitely select the backend library), if not specified, sqtui will search for available libraries and will coose PyQt5 over PySide2
+import os
+os.environ['PYQTGRAPH_QT_LIB']="PyQt5" # os.environ['PYQTGRAPH_QT_LIB']="PySide2"
+# Now import from the sqtui library
 from sqtui import QtWidgets
+# -------------------------------------------------------------------------------------
+
+import sys
+
+# Import pyqtgraph
 import pyqtgraph as pg
 import numpy as np
 
