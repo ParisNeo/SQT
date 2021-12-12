@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sqtui",
-    version="0.0.4",
+    version="0.0.5",
     author="Saifeddine ALOUI",
     author_email="aloui.saifeddine@gmail.com",
     description="Safe QT, a QT wrapper for automatic selection of python QT libs (PyQt, PySide)",

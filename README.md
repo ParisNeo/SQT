@@ -236,8 +236,19 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 
 ```
-# Changelog
+## Manually select the desired backbone
+Using sqtui allows you to select pyqt5 or pyside2 by setting an environment variable at the beginning of your python code. The rest of the coding will be transparent.
 
+```python
+os.environ['PYQTGRAPH_QT_LIB']="PySide2"
+```
+
+We use the same environment variable used by PYQTGRAPH to avoid having two different environment variables and to synchronize stqui and pyqtgraph on the basme backbone.
+# Changelog
+## V0.0.3 : 15/09/2021
+- Reorganized code
+- Enable manual selection of the backbone library
+- Updated README
 ## V0.0.2 : 28/05/2021
 - Added examples
 - Added pyqtgraph integration
