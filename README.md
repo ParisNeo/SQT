@@ -55,6 +55,7 @@ Just import the classical pyqt5 or pyside2 libraries from sqtui instead of impor
 For example, here is an example of importing the most used modules :
 ```python
 from sqtui import QtCore, QtGui, QtWidgets, QtOpenGL
+import sys
 ```
 
 Then use them normally for example :
@@ -95,7 +96,7 @@ To make this operation simple and transparent for users, SQTUI provides a wrappe
 ```python
 from sqtui import QtWidgets, QtCore, UIC
 from pathlib import Path
-
+import sys
 
 class Container():
     def __init__(self):
@@ -134,6 +135,7 @@ While this is not a very useful example, it illustrates how signals and slots co
 ```python
 from sqtui import QtCore, QtWidgets, Signal
 import time
+import sys
 
 class MainWindow(QtWidgets.QMainWindow):
     thread_sent_count = Signal(int)
@@ -211,6 +213,7 @@ import sys
 from sqtui import QtWidgets
 import pyqtgraph as pg
 import numpy as np
+import sys
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
